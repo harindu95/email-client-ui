@@ -7,8 +7,8 @@ import './Messages.css';
 
 const mapStateToProps = state =>{
     if(state.messages[state.select_label] == undefined)
-        return{messages: []};
-    return {messages: state.messages[state.select_label] };
+        return{messages: [], selected: {}};
+    return {messages: state.messages[state.select_label], selected: state.currentMsg};
 };
 
 class Messages_C extends Component{
@@ -23,13 +23,17 @@ class Messages_C extends Component{
         let style = {
             maxHeight: height
         };
+        let selected = this.props.selected ;
         return(
                 <div className="messages column" key={this.props.key} style={style}>
+
                 {
-                    this.props.messages.map( function(msg, index){
-                        return <MessageLabel key={msg.id} msg={msg} />;
-                    })
+                    this.props.messages.map(
+                        function(msg, index){
+                            return <MessageLabel key={msg.id} msg={msg} selected={selected} />;
+                        }                                                       )
                 }
+
                 </div>
         );
     }

@@ -40,9 +40,16 @@ class MessageLblView extends Component{
         let style = {
             backgroundColor: '#' + this.state.msg.logoColor
         };
+        let backgroundColor = {
+            backgroundColor: "#FFF",
+        };
+
+        if(this.state.msg == this.props.selected){
+            backgroundColor.backgroundColor = "#0037ff1f";
+        }
 
         return(
-                <div className="message-label" onClick={this.handleClick}>
+                <div className="message-label" onClick={this.handleClick} style={backgroundColor}>
 
                 <div className="logo" style={style}> {this.state.msg.logo} </div>
                 <span className="sender">
