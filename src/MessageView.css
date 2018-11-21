@@ -1,0 +1,56 @@
+.message-view .title-bar{
+    padding:20px;
+    border: 1px solid;
+    border-color : #E0E0E0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.message-view .message{
+    padding: 10px 0;
+}
+.message-view .sender{
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+}
+
+.message-view .header{
+    padding-bottom: 10px;
+}
+
+.message-view .body-container{
+
+    position: relative;
+
+}
+
+.message-view .body {
+    padding: 10px;
+    /* width: 100%; */
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    /* height: 100%; */
+    height: 100vh;
+    width: 100%; 
+    border: none;
+    overflow: auto;
+}
+
+
+.message-view .logo{
+    float: left;
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 10px;
+}
+
+.message-view{
+    border: 1px solid;
+    border-color : #E0E0E0;
+}

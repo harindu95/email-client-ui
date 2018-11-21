@@ -1,0 +1,12 @@
+.account-icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    /* background-color: #5050FF; */
+    background-color: #3A7EDE;
+    vertical-align: middle;
+    text-align: center;
+    margin: 2px;
+    color: white;
+}

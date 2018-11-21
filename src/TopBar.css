@@ -1,0 +1,31 @@
+
+.top-bar{
+    height: 40px;
+    vertical-align: middle;
+    line-height: 20px;
+    background-color: #5779DC;
+    /* background-color: rgb(87, 123, 216); */
+}
+
+input.search{
+    position: absolute;
+    right: 40px;
+    height: 20px;
+    top: 9px;
+    border: none;
+    width: 160px;
+    background-color: #3F5BA4;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+
+.top-bar .compose-btn{
+    padding: 5px;
+    display: inline-block;
+    background-color: #6A91E0;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+}

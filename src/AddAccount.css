@@ -1,0 +1,52 @@
+.add-account.modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    padding: 50px;
+    z-index: 10;
+}
+
+.add-account .dialog{
+    background-color: #fff;
+    /* height: 50%; */
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 5px;
+}
+
+.dialog .dialog-body{
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.dialog li{
+    list-style: none;
+    text-align: left;
+}
+
+.dialog span{
+    padding: 10px;
+}
+.dialog select{
+    margin-left: 30px;
+}
+
+.dialog .submit-btn{
+    /*     padding: 0px; */
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dialog .header{
+    background-color: #1A5EBE;
+    color: white;
+    padding: 4px 1px 4px 20px;
+    font-size: 12px;
+}
+
+

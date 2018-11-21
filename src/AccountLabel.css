@@ -1,0 +1,19 @@
+.account-label{
+    border-bottom: 1px solid;
+    border-color : #E0E0E0;
+    padding: 10px;
+    margin: 0px auto 20px auto;
+    overflow:hidden;
+}
+
+.account-name{
+    font-weight: 200px;
+    font-size: 12px;
+    color: grey;
+}
+
+.account-type{
+    font-weight: 700px;
+    font-size: 16px;
+}
+

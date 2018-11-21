@@ -1,0 +1,33 @@
+.message-label .logo{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid;
+    margin: 0 5px;
+    border-radius: 50%;
+    float: left;
+    color: white;
+}
+
+.message-label .title{
+    display: block;
+    font-weight: 700;
+}
+
+.message-label .sender{
+    display: block;
+    font-weight: 700;
+}
+
+
+.message-label .snippet{
+    clear: both; 
+}
+
+.message-label{
+    padding: 10px 0;
+    border: 1px solid;
+    border-color : #E0E0E0;
+}
